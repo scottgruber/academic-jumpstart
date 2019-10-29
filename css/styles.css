@@ -1,0 +1,317 @@
+/* line 1, Users/scottgruber/git/Workshops/academic-jumpstart/scss/utilities/_custom-properties.scss */
+:root {
+  --ucla-gold: #ffd100;
+  --ucla-blue: #2774ae;
+  --ucla-lightest-blue: #daebfe;
+  --ucla-lighter-blue: #8bb8e8;
+  --ucla-darker-blue: #005587;
+  --ucla-darkest-blue: #003b5c;
+  --ucla-darker-gold: #ffc72c;
+  --ucla-darkest-gold: #ffb81c;
+  --ucla-cyan: #0ff;
+  --ucla-magenta: #ff00a5;
+  --ucla-neon-green: #00ff87;
+  --ucla-green: #32aa56;
+  --ucla-yellow: #ff0;
+  --ucla-purple: #8a69d4;
+  --color-black: #000;
+  --color-black-90: #1a1a1a;
+  --color-black-80: #333;
+  --color-black-70: #4d4d4d;
+  --color-black-60: #666;
+  --color-black-50: #808080;
+  --color-black-40: #999;
+  --color-black-30: #b3b3b3;
+  --color-black-20: #ccc;
+  --color-black-10: #e6e6e6;
+  --color-white: #fff;
+  --font-family: Helvetica, Arial, sans-serif;
+  --font-family-display: --font-family;
+  --font-family-system: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  --font-family-mono: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+  --text-scale-ratio: 1.125;
+  --font-size-xxxx-display: 4.624rem;
+  --font-size-xxx-display: 4.11rem;
+  --font-size-xx-display: 3.653rem;
+  --font-size-x-display: 2.887rem;
+  --font-size-display: 2.566rem;
+  --font-size-xxxx-large: 2.027rem;
+  --font-size-xxx-large: 1.802rem;
+  --font-size-xx-large: 1.602rem;
+  --font-size-x-large: 1.424rem;
+  --font-size-large: 1.266rem;
+  --font-size-medium: 1.125rem;
+  --font-size: 1rem;
+  --font-size-small: 0.889rem;
+  --font-size-x-small: 0.79rem;
+  --line-height-text: 1.5;
+  --line-height-display: 1.125;
+  --line-height-alt: 1.25;
+  --line-height: 1;
+  --border-radius-x-small: .25rem;
+  --border-radius-small: .5rem;
+  --border-radius-medium: .75rem;
+  --border-radius-large: 1rem;
+  --border-radius-circle: 50%;
+  --border-width-hairline: 1px;
+  --border-width-thin: 2px;
+  --border-width-thick: 4px;
+  --border: var(--border-width-hairline) solid var(--blue);
+  --border-thick-gold: var(--border-width-thick) solid var(--gold);
+  --max-width: 90rem;
+  --min-width: 60rem;
+  --spacing-x-small: .25rem;
+  --spacing-small: .5rem;
+  --spacing: .75rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-xx-small: .125rem;
+  --spacing-x-large: 2rem;
+  --spacing-xx-large: 3rem;
+  --bp-x-small: 18.75em;
+  --bp-small: 30em;
+  --bp-medium: 48em;
+  --bp-large: 64em;
+  --bp-x-large: 75em;
+  --bp-xx-large: 87.5rem;
+}
+
+/* line 7, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_sections.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* line 13, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_sections.scss */
+body {
+  color: var(--black-80);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height-text);
+  margin: var(--spacing-x-large);
+  max-width: var(--max-width);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+/* line 31, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_sections.scss */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* line 6, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-bold);
+}
+
+/* line 15, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h1,
+.h1 {
+  font-size: var(--font-size-display);
+  line-height: var(--line-height);
+}
+
+/* line 21, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h2,
+.h2 {
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-display);
+}
+
+/* line 27, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h3,
+.h3 {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-display);
+}
+
+/* line 33, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h4,
+.h4 {
+  font-size: var(--font-size-medium);
+}
+
+/* line 38, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h5,
+.h5 {
+  font-size: var(--font-size);
+}
+
+/* line 43, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type-headings.scss */
+h6,
+.h6 {
+  font-size: var(--font-size-small);
+}
+
+/* line 7, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type.scss */
+::-moz-selection {
+  background: var(--lightest-blue);
+  text-shadow: none;
+}
+::selection {
+  background: var(--lightest-blue);
+  text-shadow: none;
+}
+
+/* line 12, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type.scss */
+small,
+.small,
+.legal {
+  font-size: var(--font-size-x-small);
+}
+
+/* line 18, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_type.scss */
+code {
+  font-family: var(--font-family-mono);
+}
+
+/* line 9, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_grouping.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--black-10);
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 19, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_grouping.scss */
+ul[class],
+ol[class] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_grouping.scss */
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_embedded.scss */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 9, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_forms.scss */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* line 6, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: var(--spacing) 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 13, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_tables.scss */
+th {
+  border-bottom: var(--border-style-thin);
+  padding: var(--spacing) 0;
+}
+
+/* line 18, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_tables.scss */
+td {
+  border-bottom: var(--border-style-thin);
+  padding: var(--spacing);
+}
+
+/* line 23, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_tables.scss */
+td,
+th,
+tr {
+  vertical-align: middle;
+}
+
+@media print {
+  /* line 8, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  /* line 17, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 22, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  /* line 26, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /* line 33, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  /* line 38, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  pre {
+    white-space: pre-wrap !important;
+  }
+  /* line 42, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /* line 51, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+  /* line 55, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  /* line 60, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  /* line 67, Users/scottgruber/git/Workshops/academic-jumpstart/scss/base/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+/* line 1, Users/scottgruber/git/Workshops/academic-jumpstart/scss/components/_typography.scss */
+.standfirst,
+.leadline {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-alt);
+}
+/*# sourceMappingURL=styles.css.map */
