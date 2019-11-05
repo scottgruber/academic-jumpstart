@@ -1,26 +1,69 @@
-# UCLA Design System starter kit
+# Blank site
 
-This kit is simple by design. It includes color swatches, typography, icons and a spacing system. This CSS presentation layer can be ported to various content management systems popular at UCLA. If you create a theme or port to cms based on this template please post an issue with the url so your work can be included as a campus resource.
 
-- [view on github pages](https://ucla-ux.github.io/starterkit/)
+## Yaoundé web design workshop 
 
-## Ingredients
+CBI and IBAY Web Design Workshop held November 5-7, 2019
 
-- HTML
-- CSS
-- SCSS partials
-- [Stylelint](https://stylelint.io/)
-- NPM
+## Objectives
 
-Instructions:
+To provide training in HTML, CSS, Web Design and Web Site Development for students and early career professionals at HEIS, IITA and CRESA.
 
-- `npm install`
+## Outputs
 
-## Component library options under review
+Each student will produce a personal website.
 
-- [Fractal](https://fractal.build/)
-- [Storybook](https://storybook.js.org/)
-- [patternlab](https://patternlab.io/) 
+
+## Links
+
+### Materials
+
+- [Learning Web Design by Jennifer Robbins](https://learningwebdesign.com/)
+- [Art Direction for the Web by Andy Clarke](https://stuffandnonsense.co.uk/artdirectionfortheweb/)
+- [Pro Git by Scott Chacon and Ben Straub](https://https://git-scm.com/book/en/v2)
+- [Pro Git by Scott Chacon and Ben Straub Français](https://git-scm.com/book/fr/v2)
+
+
+### Apps
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/)
+- [Atom.io](https://atom.io/)
+- [Google Chrome](https://www.google.com/chrome/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/)
+- [MAMP](https://www.mamp.info/en/)
+- [Gimp, photo editor](https://www.gimp.org/)
+- [Inkscape, illustration](https://inkscape.org/)
+- [OpenShot, video editor](https://www.openshot.org/)
+
+
+### Sites
+- [Google Fonts](https://gridbyexample.com/)
+- [Modular Scale](https://www.modularscale.com/)
+- [Mozilla Developer Network](https://developer.mozilla.org/)
+- [Getting started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+- [Learn HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [Learn CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+- [Learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [Playground to quickly master CSS Grid](https://mozilladevelopers.github.io/playground/css-grid/)
+- [CSS Shapes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Shapes)
+- [CSS Transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [CSS Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
+- [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn)
+
+
+
+## Games
+
+- [CSS Grid Garden](http://cssgridgarden.com/)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+
+
+## Social developer tools
+
+- [Glitch](https://glitch.com/)
 - [Codepen](https://codepen.io/)
-- [jsbin](https://jsbin.com/)
+
+ 
 
